@@ -1,3 +1,7 @@
+DROP TABLE IF EXISTS orders;
+DROP TABLE IF EXISTS customers;
+DROP TABLE IF EXISTS cupcakes;
+
 CREATE TABLE cupcakes (
   id SERIAL PRIMARY KEY,
   name VARCHAR(255)

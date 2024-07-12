@@ -1,5 +1,5 @@
-import { Op } from 'sequelize';
-import { Animal, Human } from './model.js';
+import { Op } from "sequelize";
+import { Animal, Human } from "./model.js";
 
 // Get the human with the primary key 2
 export const query1 = null;
